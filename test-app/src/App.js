@@ -1,23 +1,131 @@
-import logo from './logo.svg';
-import './App.css';
+import sampleImage from "./resources/image.jpg";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container pt-5">
+      <h1>News</h1>
+      <div className="row g-3">
+        <div className="col-12 col-md-6 col-lg-3">
+          <div className="card">
+            <img className="card-img-top" src={sampleImage} alt="sample" />
+            <div className="card-body">
+              <h5 className="card-title">
+                Tempor incididunt ut labore et dolore magna aliqua
+              </h5>
+              <p className="card-text">
+                Lrem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniamr...
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="col-12 col-md-6 col-lg-3">
+          <div className="card">
+            <img className="card-img-top" src={sampleImage} alt="sample" />
+            <div className="card-body">
+              <h5 className="card-title">
+                Tempor incididunt ut labore et dolore magna aliqua
+              </h5>
+              <p className="card-text">
+                Lrem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniamr...
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="col-12 col-md-6 col-lg-3">
+          <div className="card">
+            <img className="card-img-top" src={sampleImage} alt="sample" />
+            <div className="card-body">
+              <h5 className="card-title">
+                Tempor incididunt ut labore et dolore magna aliqua
+              </h5>
+              <p className="card-text">
+                Lrem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniamr...
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="col-12 col-md-6 col-lg-3">
+          <div className="card">
+            <img className="card-img-top" src={sampleImage} alt="sample" />
+            <div className="card-body">
+              <h5 className="card-title">
+                Tempor incididunt ut labore et dolore magna aliqua
+              </h5>
+              <p className="card-text">
+                Lrem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniamr...
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="col-12 col-md-6 col-lg-3">
+          <div className="card">
+            <img className="card-img-top" src={sampleImage} alt="sample" />
+            <div className="card-body">
+              <h5 className="card-title">
+                Tempor incididunt ut labore et dolore magna aliqua
+              </h5>
+              <p className="card-text">
+                Lrem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniamr...
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="col-12 col-md-6 col-lg-3">
+          <div className="card">
+            <img className="card-img-top" src={sampleImage} alt="sample" />
+            <div className="card-body">
+              <h5 className="card-title">
+                Tempor incididunt ut labore et dolore magna aliqua
+              </h5>
+              <p className="card-text">
+                Lrem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniamr...
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="col-12 col-md-6 col-lg-3">
+          <div className="card">
+            <img className="card-img-top" src={sampleImage} alt="sample" />
+            <div className="card-body">
+              <h5 className="card-title">
+                Tempor incididunt ut labore et dolore magna aliqua
+              </h5>
+              <p className="card-text">
+                Lrem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniamr...
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="col-12 col-md-6 col-lg-3">
+          <div className="card">
+            <img className="card-img-top" src={sampleImage} alt="sample" />
+            <div className="card-body">
+              <h5 className="card-title">
+                Tempor incididunt ut labore et dolore magna aliqua
+              </h5>
+              <p className="card-text">
+                Lrem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniamr...
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
