@@ -1,3 +1,4 @@
+import React, { Component } from 'react'
 import sampleImage from "./resources/image.jpg";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
