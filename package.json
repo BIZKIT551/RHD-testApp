@@ -1,7 +1,7 @@
 {
   "homepage": "https://bizkit551.github.io/bs5-cards",
   "name": "test-app",
-  "version": "0.1.0",
+  "version": "5.0.0",
   "private": true,
   "dependencies": {
     "-": "0.0.1",
